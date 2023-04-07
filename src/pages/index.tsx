@@ -89,14 +89,6 @@ export default function Home() {
 								Suspendisse sit amet sollicitudin sapien, at
 								tempus nisi. Aenean mollis neque ut nunc
 								pharetra dapibus. Vivamus in dolor sapien.
-								Mauris hendrerit porttitor nulla, et elementum
-								lorem convallis quis. Cras quis rhoncus mi.
-								Donec vulputate metus in ultricies convallis.
-								Etiam ultrices lorem eget ligula accumsan
-								aliquam. Vestibulum laoreet lobortis libero in
-								aliquet. Morbi eleifend placerat velit eu
-								placerat. Mauris sodales metus nec lectus
-								varius, ut euismod lacus consequat.
 							</p>
 						</div>
 						<div className="bg-[url('/images/porquinho.webp')] bg-no-repeat bg-cover bg-center w-full h-full" />
@@ -117,14 +109,6 @@ export default function Home() {
 								Suspendisse sit amet sollicitudin sapien, at
 								tempus nisi. Aenean mollis neque ut nunc
 								pharetra dapibus. Vivamus in dolor sapien.
-								Mauris hendrerit porttitor nulla, et elementum
-								lorem convallis quis. Cras quis rhoncus mi.
-								Donec vulputate metus in ultricies convallis.
-								Etiam ultrices lorem eget ligula accumsan
-								aliquam. Vestibulum laoreet lobortis libero in
-								aliquet. Morbi eleifend placerat velit eu
-								placerat. Mauris sodales metus nec lectus
-								varius, ut euismod lacus consequat.
 							</p>
 						</div>
 						<div className='bg-[#E3E3E3] w-full h-full flex flex-col p-10 gap-10'>
@@ -144,14 +128,6 @@ export default function Home() {
 								Suspendisse sit amet sollicitudin sapien, at
 								tempus nisi. Aenean mollis neque ut nunc
 								pharetra dapibus. Vivamus in dolor sapien.
-								Mauris hendrerit porttitor nulla, et elementum
-								lorem convallis quis. Cras quis rhoncus mi.
-								Donec vulputate metus in ultricies convallis.
-								Etiam ultrices lorem eget ligula accumsan
-								aliquam. Vestibulum laoreet lobortis libero in
-								aliquet. Morbi eleifend placerat velit eu
-								placerat. Mauris sodales metus nec lectus
-								varius, ut euismod lacus consequat.
 							</p>
 						</div>
 						<div className='bg-[#E3E3E3] w-full h-full flex flex-col p-10 gap-10'>
@@ -173,14 +149,6 @@ export default function Home() {
 								Suspendisse sit amet sollicitudin sapien, at
 								tempus nisi. Aenean mollis neque ut nunc
 								pharetra dapibus. Vivamus in dolor sapien.
-								Mauris hendrerit porttitor nulla, et elementum
-								lorem convallis quis. Cras quis rhoncus mi.
-								Donec vulputate metus in ultricies convallis.
-								Etiam ultrices lorem eget ligula accumsan
-								aliquam. Vestibulum laoreet lobortis libero in
-								aliquet. Morbi eleifend placerat velit eu
-								placerat. Mauris sodales metus nec lectus
-								varius, ut euismod lacus consequat.
 							</p>
 						</div>
 						<div className="bg-[url('/images/cirurgia.webp')] bg-no-repeat bg-cover bg-center w-full h-full" />
