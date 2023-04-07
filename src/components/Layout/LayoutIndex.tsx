@@ -78,7 +78,7 @@ export default function Layout({
 			<footer className='bg-white'>
 				<div className='flex items-center justify-center py-10 mx-auto px-60'>
 					<div className='w-full h-full'>
-						<h1 className='font-bold text-1xl'>Subscribe</h1>
+						<h1 className='font-bold text-1xl'>Subscrever</h1>
 						<div className='flex flex-wrap items-end justify-center xl:flex-nowrap md:flex-nowrap lg:flex-wrap md:justify-start'>
 							<div className='relative w-40 mr-2 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4'>
 								<label
