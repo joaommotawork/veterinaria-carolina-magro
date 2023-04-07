@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
-import logo from '../../public/branding/logo.svg';
+import partners from '../../public/images/partners.png';
 
 export default function Home() {
 	const { t } = useTranslation('common');
@@ -177,11 +177,11 @@ export default function Home() {
 							</h1>
 							<Image
 								alt='Mountains'
-								src={logo}
+								src={partners}
 								width={350}
 								height={237.5}
 								style={{
-									width: '20%',
+									width: '50%',
 									height: 'auto',
 								}}
 							/>
