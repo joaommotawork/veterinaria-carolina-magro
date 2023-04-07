@@ -3,6 +3,7 @@ import { Montserrat } from '@next/font/google';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { ReactNode } from 'react';
+import logo1 from '../../../public/branding/logoLettersBlue1.svg';
 import logo from '../../../public/branding/logoLettersBlue.svg';
 
 const montserrat = Montserrat({
@@ -51,7 +52,7 @@ export default function Layout({
 							height={237.5}
 							sizes='100vw'
 							style={{
-								width: '75%',
+								width: '50%',
 								height: 'auto',
 							}}
 						/>
@@ -98,6 +99,17 @@ export default function Layout({
 							</button>
 						</div>
 					</div>
+					<Image
+						alt='Mountains'
+						src={logo1}
+						width={350}
+						height={237.5}
+						sizes='100vw'
+						style={{
+							width: '20%',
+							height: 'auto',
+						}}
+					/>
 					<div className='flex justify-end w-full h-full gap-10'>
 						{footerSections &&
 							footerSections.map((section, index) => (
