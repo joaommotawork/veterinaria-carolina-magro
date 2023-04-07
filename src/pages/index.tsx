@@ -34,7 +34,7 @@ export default function Home() {
 							<h1 className='text-5xl font-bold uppercase'>
 								Sobre Mim
 							</h1>
-							<p className='text-justify'>
+							<p className=''>
 								Como Vet de Exóticos sou uma profissional
 								especializada em tratar de animais não
 								“convencionais”, incluindo aves, répteis,
@@ -59,7 +59,7 @@ export default function Home() {
 							<h1 className='text-5xl font-bold uppercase'>
 								Serviços
 							</h1>
-							<p className='text-justify'>
+							<p className=''>
 								É importante que cada clínica tenha acesso a um
 								veterinário de exóticos experiente para garantir
 								o melhor serviço e cuidado, e é para isso que
@@ -75,7 +75,7 @@ export default function Home() {
 								<p className='text-3xl font-bold'>Clínica</p>
 								<p className='text-3xl'>01</p>
 							</div>
-							<p className='text-justify'>
+							<p className=''>
 								Lorem ipsum dolor sit amet, consectetur
 								adipiscing elit. Maecenas mollis viverra velit
 								quis rhoncus. Nam vel dolor scelerisque,
@@ -103,7 +103,7 @@ export default function Home() {
 								<p className='text-3xl font-bold'>Cirurgia</p>
 								<p className='text-3xl'>02</p>
 							</div>
-							<p className='text-justify'>
+							<p className=''>
 								Lorem ipsum dolor sit amet, consectetur
 								adipiscing elit. Maecenas mollis viverra velit
 								quis rhoncus. Nam vel dolor scelerisque,
@@ -130,7 +130,7 @@ export default function Home() {
 								<p className='text-3xl font-bold'>Urgências</p>
 								<p className='text-3xl'>03</p>
 							</div>
-							<p className='text-justify'>
+							<p className=''>
 								Lorem ipsum dolor sit amet, consectetur
 								adipiscing elit. Maecenas mollis viverra velit
 								quis rhoncus. Nam vel dolor scelerisque,
@@ -159,7 +159,7 @@ export default function Home() {
 								</p>
 								<p className='text-3xl'>04</p>
 							</div>
-							<p className='text-justify'>
+							<p className=''>
 								Lorem ipsum dolor sit amet, consectetur
 								adipiscing elit. Maecenas mollis viverra velit
 								quis rhoncus. Nam vel dolor scelerisque,
