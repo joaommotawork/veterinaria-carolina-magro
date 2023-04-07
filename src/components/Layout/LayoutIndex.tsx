@@ -3,7 +3,7 @@ import { Montserrat } from '@next/font/google';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { ReactNode } from 'react';
-import logo from '../../../public/branding/logo.svg';
+import logo from '../../../public/branding/logoLettersBlue.svg';
 
 const montserrat = Montserrat({
 	subsets: ['latin'],
@@ -41,7 +41,7 @@ export default function Layout({
 	return (
 		<div
 			className={`flex flex-col min-h-screen min-w-screen ${montserrat.variable} font-sans`}>
-			<header className='absolute top-0 flex-none w-full bg-white px-60'>
+			<header className='absolute top-0 flex-none w-full py-5 bg-white px-60'>
 				<div className='flex justify-between mx-auto'>
 					<a className='flex items-center justify-center order-none mb-0 font-medium text-gray-900 cursor-pointer title-font'>
 						<Image
@@ -51,7 +51,7 @@ export default function Layout({
 							height={237.5}
 							sizes='100vw'
 							style={{
-								width: '50%',
+								width: '60%',
 								height: 'auto',
 							}}
 						/>
