@@ -33,7 +33,7 @@ export default function Home() {
 				<section className='flex flex-col w-full h-full py-20 px-60'>
 					<div className='grid w-full h-full grid-cols-2 gap-40'>
 						<div className='flex flex-col justify-center w-full h-full gap-5'>
-							<h1 className='text-5xl font-semibold uppercase'>
+							<h1 className='text-5xl font-semibold'>
 								Sobre Mim
 							</h1>
 							<p className=''>
@@ -58,9 +58,7 @@ export default function Home() {
 				<section className='flex flex-col w-full h-full pt-20 pb-5 px-60'>
 					<div className='flex flex-col justify-center'>
 						<div className='flex flex-col items-center justify-center gap-5'>
-							<h1 className='text-5xl font-semibold uppercase'>
-								Serviços
-							</h1>
+							<h1 className='text-5xl font-semibold'>Serviços</h1>
 							<p className=''>
 								É importante que cada clínica tenha acesso a um
 								veterinário de exóticos experiente para garantir
@@ -163,7 +161,7 @@ export default function Home() {
 				<section className='flex flex-col w-full h-full pt-20 pb-5 px-60'>
 					<div className='flex flex-col justify-center'>
 						<div className='flex flex-col items-center justify-center gap-10'>
-							<h1 className='text-5xl font-semibold uppercase'>
+							<h1 className='text-5xl font-semibold'>
 								Pacientes
 							</h1>
 							<div className='grid w-full h-full grid-cols-4 grid-rows-1 gap-5'>
@@ -178,8 +176,8 @@ export default function Home() {
 				<section className='flex flex-col w-full h-full pt-20 pb-5 px-60'>
 					<div className='flex flex-col justify-center'>
 						<div className='flex flex-col items-center justify-center gap-10'>
-							<h1 className='text-5xl font-semibold uppercase'>
-								Onde me Encontrar
+							<h1 className='text-5xl font-semibold'>
+								Onde Me Encontrar
 							</h1>
 							<Image
 								alt='Mountains'
