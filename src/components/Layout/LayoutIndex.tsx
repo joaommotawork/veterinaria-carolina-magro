@@ -76,8 +76,8 @@ export default function Layout({
 				{children}
 			</main>
 			<footer className='bg-white'>
-				<div className='flex py-10 mx-auto px-60'>
-					<div className='w-full'>
+				<div className='flex items-center justify-center py-10 mx-auto px-60'>
+					<div className='w-full h-full'>
 						<h1 className='font-bold uppercase text-1xl'>
 							Subscribe
 						</h1>
@@ -100,7 +100,7 @@ export default function Layout({
 							</button>
 						</div>
 					</div>
-					<div className='flex justify-end w-full gap-10'>
+					<div className='flex justify-end w-full h-full gap-10'>
 						{footerSections &&
 							footerSections.map((section, index) => (
 								<div className='flex flex-col px-4' key={index}>

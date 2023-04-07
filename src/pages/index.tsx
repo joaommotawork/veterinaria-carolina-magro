@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
+import Image from 'next/image';
+import logo from '../../public/branding/logo.svg';
 
 export default function Home() {
 	const { t } = useTranslation('common');
@@ -202,10 +204,20 @@ export default function Home() {
 				<section className='flex flex-col w-full h-full pt-20 pb-5 px-60'>
 					<div className='flex flex-col justify-center'>
 						<div className='flex flex-col items-center justify-center gap-10'>
-							<h1 className='text-5xl font-bold uppercase'>
+							<h1 className='font-bold uppercase text-7xl'>
 								Onde me Encontrar
 							</h1>
-							<p className='text-center'>
+							<Image
+								alt='Mountains'
+								src={logo}
+								width={350}
+								height={237.5}
+								style={{
+									width: '20%',
+									height: 'auto',
+								}}
+							/>
+							<p className='w-1/2 text-center'>
 								Presto serviços em diversas clínicas e colaboro
 								com as suas equipas para proporcionar o melhor
 								cuidado no tratamento de Exóticos. Como
