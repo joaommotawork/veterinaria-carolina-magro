@@ -19,10 +19,10 @@ export default function Home() {
 				/>
 				{/* <link rel='icon' href='/favicon.ico' /> */}
 			</Head>
-			<div className="bg-[url('/images/background.jpeg')] h-screen w-screen absolute top-0 -z-10 bg-no-repeat bg-cover bg-top left-0" />
+			<div className="bg-[url('/images/backgroundForest.jpg')] h-screen w-screen absolute top-0 -z-10 bg-no-repeat bg-cover bg-top left-0" />
 			<div className='w-full h-full'>
 				<section className='flex flex-col justify-end w-screen h-[calc(100vh-240px)] px-60'>
-					<div className='flex flex-col mb-20 font-bold uppercase text-9xl'>
+					<div className='flex flex-col mb-20 font-bold text-white uppercase text-9xl'>
 						<p>{t('homePage.bannerCitation1')}</p>
 						<p>{t('homePage.bannerCitation2')}</p>
 						<p>{t('homePage.bannerCitation3')}</p>
