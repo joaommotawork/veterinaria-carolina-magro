@@ -24,7 +24,7 @@ export default function Home() {
 			<div className="bg-[url('/images/backgroundForest.jpg')] h-screen w-screen absolute top-0 -z-10 bg-no-repeat bg-cover bg-top left-0" />
 			<div className='w-full h-full'>
 				<section className='flex flex-col justify-end w-screen h-[calc(100vh-240px)] px-60'>
-					<div className='flex flex-col mb-20 font-bold text-white uppercase text-9xl'>
+					<div className='flex flex-col mb-20 font-semibold text-white uppercase text-9xl'>
 						<p>{t('homePage.bannerCitation1')}</p>
 						<p>{t('homePage.bannerCitation2')}</p>
 						<p>{t('homePage.bannerCitation3')}</p>
@@ -33,7 +33,7 @@ export default function Home() {
 				<section className='flex flex-col w-full h-full py-20 px-60'>
 					<div className='grid w-full h-full grid-cols-2 gap-40'>
 						<div className='flex flex-col justify-center w-full h-full gap-5'>
-							<h1 className='text-5xl font-bold uppercase'>
+							<h1 className='text-5xl font-semibold uppercase'>
 								Sobre Mim
 							</h1>
 							<p className=''>
@@ -58,7 +58,7 @@ export default function Home() {
 				<section className='flex flex-col w-full h-full pt-20 pb-5 px-60'>
 					<div className='flex flex-col justify-center'>
 						<div className='flex flex-col items-center justify-center gap-5'>
-							<h1 className='text-5xl font-bold uppercase'>
+							<h1 className='text-5xl font-semibold uppercase'>
 								Serviços
 							</h1>
 							<p className=''>
@@ -74,7 +74,9 @@ export default function Home() {
 					<div className='grid w-full h-full grid-cols-3 grid-rows-2 gap-10'>
 						<div className='bg-[#E3E3E3] w-full h-full flex flex-col p-10 gap-10'>
 							<div className='flex justify-between'>
-								<p className='text-3xl font-bold'>Clínica</p>
+								<p className='text-3xl font-semibold'>
+									Clínica
+								</p>
 								<p className='text-3xl'>01</p>
 							</div>
 							<p className=''>
@@ -94,7 +96,9 @@ export default function Home() {
 						<div className="bg-[url('/images/porquinho.webp')] bg-no-repeat bg-cover bg-center w-full h-full" />
 						<div className='bg-[#E3E3E3] w-full h-full flex flex-col p-10 gap-10'>
 							<div className='flex justify-between'>
-								<p className='text-3xl font-bold'>Cirurgia</p>
+								<p className='text-3xl font-semibold'>
+									Cirurgia
+								</p>
 								<p className='text-3xl'>02</p>
 							</div>
 							<p className=''>
@@ -113,7 +117,9 @@ export default function Home() {
 						</div>
 						<div className='bg-[#E3E3E3] w-full h-full flex flex-col p-10 gap-10'>
 							<div className='flex justify-between'>
-								<p className='text-3xl font-bold'>Urgências</p>
+								<p className='text-3xl font-semibold'>
+									Urgências
+								</p>
 								<p className='text-3xl'>03</p>
 							</div>
 							<p className=''>
@@ -132,7 +138,7 @@ export default function Home() {
 						</div>
 						<div className='bg-[#E3E3E3] w-full h-full flex flex-col p-10 gap-10'>
 							<div className='flex justify-between'>
-								<p className='text-3xl font-bold'>
+								<p className='text-3xl font-semibold'>
 									Consultas de Rotina
 								</p>
 								<p className='text-3xl'>04</p>
@@ -157,7 +163,7 @@ export default function Home() {
 				<section className='flex flex-col w-full h-full pt-20 pb-5 px-60'>
 					<div className='flex flex-col justify-center'>
 						<div className='flex flex-col items-center justify-center gap-10'>
-							<h1 className='text-5xl font-bold uppercase'>
+							<h1 className='text-5xl font-semibold uppercase'>
 								Pacientes
 							</h1>
 							<div className='grid w-full h-full grid-cols-4 grid-rows-1 gap-5'>
@@ -172,7 +178,7 @@ export default function Home() {
 				<section className='flex flex-col w-full h-full pt-20 pb-5 px-60'>
 					<div className='flex flex-col justify-center'>
 						<div className='flex flex-col items-center justify-center gap-10'>
-							<h1 className='font-bold uppercase text-7xl'>
+							<h1 className='text-5xl font-semibold uppercase'>
 								Onde me Encontrar
 							</h1>
 							<Image
