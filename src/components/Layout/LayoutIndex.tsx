@@ -51,7 +51,7 @@ export default function Layout({
 							height={237.5}
 							sizes='100vw'
 							style={{
-								width: '60%',
+								width: '75%',
 								height: 'auto',
 							}}
 						/>
