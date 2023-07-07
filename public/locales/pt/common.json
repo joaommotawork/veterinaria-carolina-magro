@@ -1,5 +1,125 @@
 {
+	"header": {
+		"home": "Início",
+		"aboutMe": "Sobre Mim",
+		"whereToFindMe": "Onde Me Encontrar",
+		"services": "Serviços",
+		"training": "Formação",
+		"investigation": "Investigação",
+		"letsWork": "Vamos Trabalhar"
+	},
 	"homePage": {
-		"bannerCitation": "Tratando exóticos com paixão e expertise."
+		"banner": {
+			"citation1": "Exóticos.",
+			"citation2": "Paixão.",
+			"citation3": "Expertise"
+		},
+		"aboutMe": {
+			"title": "Sobre Mim",
+			"text": "Olá, o meu nome é Carolina, sou médica veterinária de animais exóticos e tenho duas obsessões claras na vida, os “bichos estranhos” e a cor azul. Adoro o que faço e vivo numa jornada constante de desenvolvimento profissional e pessoal. O meu sonho é garantir um serviço de excelência na medicina veterinária para todas as espécies, sem exceção, e fazê-lo em comunhão com os colegas que partilham deste sonho.",
+			"callToAction": "Saiba Mais"
+		},
+		"whereToFindMe": {
+			"title": "Onde Me Encontrar",
+			"contact": "Contacto",
+			"vetOeiras": {
+				"title": "Hospital Veterinário VetOeiras",
+				"address": "Estrada de Oeiras, Nº18 - 20, 2780-114 Oeiras"
+			},
+			"zooniverso": {
+				"title": "Clínica Veterinária Zooniverso Vet",
+				"address": "Estrada Nacional, Nº5, C.C.E.Leclerc, Loja 24, Montijo"
+			},
+			"azevet": {
+				"title": "Clínica Veterinária Azevet",
+				"address": "Rua de Lisboa (EN 10), Nº 453, 2925-566 Azeitão"
+			},
+			"blueVet": {
+				"title": "Consultório Veterinário de Almada - BlueVet",
+				"address": "Rua D. Sancho I, Nº19 C, 2800-713 Cacilhas"
+			}
+		},
+		"services": {
+			"title": "Serviços",
+			"subTitle": "É importante que cada clínica tenha acesso a um veterinário de exóticos experiente para garantir o melhor serviço e cuidado, e é para isso que aqui estou.",
+			"surgery": {
+				"title": "Cirurgia",
+				"text": "Serviço de cirugia avançada para todas as espécies de animais exóticos."
+			},
+			"tests": {
+				"title": "Análises",
+				"text": "Análises clínicas adaptadas para animais exóticos."
+			},
+			"anesthesia": {
+				"title": "Anestesia",
+				"text": "Serviço de anestesia e apoio a cirurgia de animais exóticos."
+			},
+			"image": {
+				"title": "Imagem",
+				"text": "Serviços de imagem e imagem avançada Hospitalar: Ecografia, Endoscopia e TAC."
+			},
+			"consultancy": {
+				"title": "Consultoria",
+				"text": "Serviços de Consultoria para Clínicas, Consultórios e Criadores."
+			}
+		},
+		"letsWork": {
+			"title": "Vamos Trabalhar",
+			"text": "Juntos podemos elevar o seu conhecimento e serviços veterinários para animais exóticos.",
+			"callToAction": "Contacte-me"
+		}
+	},
+	"aboutMe": {
+		"presentationCard": {
+			"title": "Drª Carolina Magro",
+			"subTitle": "Médica Veterinária de Animais Exóticos",
+			"text1": "DVM MSc GPCert (Ex AP)",
+			"text2": "MOVM MRCVS MARAV MAEMV"
+		},
+		"timeline": {
+			"title": "Experiência Profissional",
+			"2022-1": "Realizou diversos estágios, nacionais e internacionais, incluindo estadia no “North Richmond Veterinary Hospital” em 2016 e 2022.",
+			"2019-1": "Em 2019 concluiu a sua segunda pós-graduação em Clínica de animais exóticos, tonando-se uma das primeiras portuguesas a obter a certificação internacional “GP Cert (Ex AP)”, reconhecida pela International School of Veterinary Post-graduate Studies (ISVPS).",
+			"2017-1": "Obteve a sua primeira pós-graduação em Medicina e Cirurgia em animais exóticos pela Faculdade de Medicina Veterinária da Universidade lusófona (FMV-ULHT).",
+			"2017-2": "Completou o Mestrado Integrado de Medicina Veterinaria pela Faculdade de Medicina Veterinária da Universidade de Lisboa (FMV-ULisboa).",
+			"2016-1": "Oradora convidada desde 2016 na disciplina opcional de “Toxicologia clínica” na FMV-ULisboa.",
+			"2016-2": "Realizou diversos estágios, nacionais e internacionais, dos quais se destacam a sua passagem pelo departamento de animais exóticos do centro de especialidades de Sydney “North Shore Veterinary Specialist Center”, e as suas estadias no “North Richmond Veterinary Hospital”.",
+			"2012-1": "Concluiu o ciclo preparatório do Mestrado Integrado de Medicina Veterinaria na Universidade dos Açores."
+		},
+		"moreAboutMe": {
+			"title": "Mais Sobre Mim",
+			"text1": "Em 2012, concluiu o ciclo preparatório do Mestrado Integrado de Medicina Veterinaria na Universidade dos Açores, e em 2017 completou o Mestrado Integrado de Medicina Veterinaria pela Faculdade de Medicina Veterinária da Universidade de Lisboa (FMV-ULisboa).",
+			"text2": "Nesse mesmo ano (2017) obteve a sua primeira pós-graduação em Medicina e Cirurgia em animais exóticos pela Faculdade de Medicina Veterinária da Universidade lusófona (FMV-ULHT).",
+			"text3": "Em 2019 concluiu a sua segunda pós-graduação em Clínica de animais exóticos, tonando-se uma das primeiras portuguesas a obter a certificação internacional “GP Cert (Ex AP)”, reconhecida pela International School of Veterinary Post-graduate Studies (ISVPS).",
+			"text4": "Realizou diversos estágios, nacionais e internacionais, dos quais se destacam a sua passagem pelo departamento de animais exóticos do centro de especialidades de Sydney “North Shore Veterinary Specialist Center”, em 2016 e as suas estadias no “North Richmond Veterinary Hospital” em 2016 e 2022.",
+			"text5": "Participou como palestrante em vários eventos de formação nacional e internacional para estudantes e médicos-veterinários. ",
+			"text6": "Oradora convidada desde 2016 na disciplina opcional de “Toxicologia clínica” na FMV-ULisboa.",
+			"text7": "Desempenha o papel de formadora desde 2020 na área dos animais exóticos no curso de Auxiliares Veterinários da empresa Formação Talento.",
+			"text8": "Mantem actualmente uma parceria de investigação científica com o departamento de ciências reprodutivas da Universidade de NewCastle, Australia.",
+			"text9": "Ao longo do seu percurso académico, teve a oportunidade de aprender com alguns nomes conceituados na área da medicina e cirurgia de animais exóticos e Diagnóstico por Imagem, como por exemplo: Dr Rui Patrício DVM MSc, Dra Michelle Dalli BSc, BVSc, Dr David Vella BSc, BVSc (Hons) DABVP (ECM), Dr Jo Sheen BVM&S CertZooMed DABVP (Exotic Companion mammals), Dr Lorenzo Crosta med vet PhD GPCert (Exotic animal) DECZM EBVS, Dr Joana Pontes DVM MSc ECVDI resident."
+		}
+	},
+	"services": {
+		"mainCard": {
+			"title": "Serviços",
+			"text": "Tenho a sorte de ter a meu lado uma equipa multidisciplinar e extremamente qualificada de auxiliares, enfermeiras e médicas-veterinárias. Só assim se torna possível oferecer os melhores cuidados a qualquer tipo de paciente."
+		},
+		"consultancyCard": {
+			"title": "Consultoria",
+			"text1": "Aconselhamento e discussão de casos com colegas.",
+			"text2": "Garanta que está a oferecer o melhor diagnóstico e tratamento aos seus pacientes, sem perder tempo."
+		},
+		"surgeryAndAnesthesiaCard": {
+			"title": "Cirurgia e Anestesia",
+			"text": "Tenho a sorte de ter a meu lado uma equipa multidisciplinar e extremamente qualificada de auxiliares, enfermeiras e médicas-veterinárias. Só assim se torna possível oferecer os melhores cuidados cirúrgicos e anestésicos a qualquer tipo de paciente. Minimizando os riscos e aumentando exponencialmente a taxa de sucesso."
+		},
+		"testsCard": {
+			"title": "Análises",
+			"text": "Análises clínicas adaptadas para animais exóticos."
+		},
+		"imagingServicesTest": {
+			"title": "Serviços de Imagem",
+			"text": "Serviço de imagem e imagem avançada Hospitalar (ecografia, endoscopia, TAC)."
+		}
 	}
 }
