@@ -35,11 +35,74 @@ export default function Services() {
 					</div>
 					<div className='flex flex-col w-2/3'>
 						<h1 className='text-3xl font-bold'>
-							{t('services.mainCard.title')}
+							{t('services.consultancyCard.title')}
 						</h1>
 						<div className=''>
-							<p>{t('services.mainCard.text')}</p>
+							<p>{t('services.consultancyCard.text1')}</p>
+							<p>{t('services.consultancyCard.text2')}</p>
 						</div>
+					</div>
+				</div>
+				<div className='flex w-full px-10 py-10 bg-white  h-[280px] gap-10 justify-center border-t-0'>
+					<div className='flex flex-col w-2/3'>
+						<h1 className='text-3xl font-bold'>
+							{t('services.surgeryAndAnesthesiaCard.title')}
+						</h1>
+						<div className=''>
+							<p>
+								{t('services.surgeryAndAnesthesiaCard.text')}
+							</p>
+						</div>
+					</div>
+					<div className='relative flex flex-1 w-1/3'>
+						<Image
+							alt={t('homePage.whereToFindMe.vetOeiras.title')}
+							src={CarolinaMagro}
+							fill
+							style={{
+								objectFit: 'cover',
+							}}
+						/>
+					</div>
+				</div>
+				<div className='flex w-full px-10 py-10 bg-white  h-[280px] gap-10 justify-center border-t-0'>
+					<div className='relative flex flex-1 w-1/3'>
+						<Image
+							alt={t('homePage.whereToFindMe.vetOeiras.title')}
+							src={CarolinaMagro}
+							fill
+							style={{
+								objectFit: 'cover',
+							}}
+						/>
+					</div>
+					<div className='flex flex-col w-2/3'>
+						<h1 className='text-3xl font-bold'>
+							{t('services.testsCard.title')}
+						</h1>
+						<div className=''>
+							<p>{t('services.testsCard.text')}</p>
+						</div>
+					</div>
+				</div>
+				<div className='flex w-full px-10 py-10 bg-white  h-[280px] gap-10 justify-center border-t-0'>
+					<div className='flex flex-col w-2/3'>
+						<h1 className='text-3xl font-bold'>
+							{t('services.imagingServicesTest.title')}
+						</h1>
+						<div className=''>
+							<p>{t('services.imagingServicesTest.text')}</p>
+						</div>
+					</div>
+					<div className='relative flex flex-1 w-1/3'>
+						<Image
+							alt={t('homePage.whereToFindMe.vetOeiras.title')}
+							src={CarolinaMagro}
+							fill
+							style={{
+								objectFit: 'cover',
+							}}
+						/>
 					</div>
 				</div>
 			</section>
